@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: #333333;
+    margin-top: 30px;
+}
+
+ol, ul, dl {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.games-list li:nth-child(even) {
+    background-color: lightyellow;
+    color: darkred;
+}
+
+.movies-list li:nth-child(3n + 2) {
+    background-color: lightblue;
+    color: darkgreen;
+}
+
+.items-list dt:first-child,
+.items-list dt:last-of-type,
+.items-list dt:first-child + dd,
+.items-list dt:last-of-type + dd {
+    background-color: lightpink;
+    color: black;
+}
+
+li, dt, dd {
+    margin: 8px 0;
+    padding: 5px;
+}
+
+dd {
+    margin-left: 20px;
+}
